@@ -1,0 +1,46 @@
+header {
+    background-color: rgb(241, 218, 214);
+    display: flex;
+    width: 80%;
+    float: right;
+    flex-wrap: nowrap;
+    color: rgb(60, 57, 57)
+}
+
+header div {
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+}
+
+header div button {
+    display: block;
+    margin: 15px auto;
+    padding: 6px 12px;
+    background-color: transparent;
+    border: solid 1px  rgb(60, 57, 57);
+    border-radius: 2px;
+}
+
+.titles-header p{
+    margin:0;
+    padding:0 0 0 20px;
+    font-size: 14px;
+}
+
+.titles-header h3 {
+    margin:0;
+    padding:0 0 0 20px;
+    font-size: 18px;
+}
+
+.email-header{
+    text-align: right;
+    padding:4px 0;
+    margin: 10px 0 0 0;
+    font-size: 12px;
+}
+
+.email-header p {
+    margin: 0;
+}
