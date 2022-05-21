@@ -1,0 +1,70 @@
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: left;
+    height: 100%;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    box-shadow: 0px 0px 6px black;
+    font-size: 12px;
+}
+
+
+.menu-lateral h1 {
+    background-color: rgb(205, 99, 99);
+    font-weight: 500;
+    color: white;
+    width: 100%;
+    margin: 0%;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.menu-lateral nav,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-lateral nav ul li {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    flex-wrap: wrap;
+    border-bottom: solid 1px rgb(60, 57, 57);
+}
+
+.menu-lateral nav ul li:hover {
+    background-color: rgb(241, 218, 214);
+    border-left: solid 3px tomato;
+}
+
+
+
+.menu-lateral nav ul li a {
+    color: rgb(60, 57, 57);
+    font-weight:500;
+    text-decoration: none;
+}
+
+
+
+@media(max-width: 712px) {
+    .menu-lateral {
+        font-size: 6px;
+    }
+}
+
+
+
+@media(max-width: 370px) {
+    .menu-lateral {
+        font-size:2px;
+    }
+}
