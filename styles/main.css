@@ -13,17 +13,42 @@ main {
 /* SEÇÃO TÍTULO DO MAIN */
 .titulo-main {
     width: 100%;
-    background: yellowgreen;
     display: flex;
     flex-direction: row;
     padding: 0;
     margin: 0;
 }
 .titulo-main div {
-    border: solid 1px green;
     font-size: 8px;
 }
 .titulo-main h1 {
     font-size: 16px;
-    background-color: blue;
+    color: tomato;
+    width: 80%;
+}
+
+.download {
+    background-color: red;
+    width: 20%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 4fr;
+    grid-gap: 10px;
+}
+.download p {
+    text-align: center;
+    font-size: 10px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: green;
+}
+
+@media (max-width: 720px){
+    .titulo-main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo-main h1, .download {
+        width: 100%;
+    }
 }
