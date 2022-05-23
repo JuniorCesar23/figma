@@ -44,3 +44,12 @@ header div button {
 .email-header p {
     margin: 0;
 }
+
+@media (max-width: 720px){
+    header {
+        flex-direction: column;
+    }
+    .email-header{
+        text-align: center;
+    }
+}

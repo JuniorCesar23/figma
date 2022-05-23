@@ -1,6 +1,6 @@
 main {
-    background-color: red;
     display: flex;
+    flex-direction: column;
     width:75%;
     float: right;
     margin: 2px;

@@ -1,0 +1,21 @@
+.secao-resumo {
+    width: 100%;
+    display: block;
+    margin: 4px 0;
+    padding: 0;
+    border-radius: 2px;
+    box-shadow: 0px 0px 1px black;
+}
+
+.secao-resumo h1 {
+    background-color: rgb(241, 218, 214);
+    padding: 10px;
+    margin: 0;
+    color: rgb(60, 57, 57);
+    font-weight: 500;
+}
+
+.secao-resumo p {
+    padding: 0 10px;
+    font-size: 12px;
+}
