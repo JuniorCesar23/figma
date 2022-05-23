@@ -1,28 +1,49 @@
 /* SEÇÃO DE DISCUSSÕES */
 .secao-discussoes {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 12px;
+    width: 100%;
+    margin: 4px 0;
     border-radius: 2px;
     box-shadow: 0px 0px 1px black;
+    font-size: 12px;
+    text-align: center;
 }
-
-.secao-discussoes div h1 {
+.secao-discussoes h1 {
     background-color: rgb(241, 218, 214);
-    padding: 10px;
+    padding: 10px 0 10px 10px;
     margin: 0;
     color: rgb(60, 57, 57);
     font-weight: 500;
     text-align: left;
 }
 
-.secao-discussoes div h2 {
-    color: tomato;
+.secao-discussoes .div-criar-topicos {
+    display: block;
+    width: 90%;
+    margin: auto auto 10px auto;
+    border-bottom: 1px solid black;
 }
 
-.secao-discussoes div p {
-    padding: 0 40px;
+.secao-discussoes .div-criar-topicos h2 {
+    color: tomato;
+    display: block;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.secao-discussoes .div-criar-topicos img {
+    height: 48px;
+    width: 48px;
+    margin:auto;
+}
+
+.secao-discussoes .div-criar-topicos p{
+    padding: 10px 100px;
+}
+
+.secao-discussoes .div-criar-topicos button {
+    background-color: tomato;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
 }
