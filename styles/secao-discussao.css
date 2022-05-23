@@ -1,0 +1,28 @@
+/* SEÇÃO DE DISCUSSÕES */
+.secao-discussoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 1px black;
+}
+
+.secao-discussoes div h1 {
+    background-color: rgb(241, 218, 214);
+    padding: 10px;
+    margin: 0;
+    color: rgb(60, 57, 57);
+    font-weight: 500;
+    text-align: left;
+}
+
+.secao-discussoes div h2 {
+    color: tomato;
+}
+
+.secao-discussoes div p {
+    padding: 0 40px;
+}
