@@ -139,14 +139,18 @@
 
         <!-- Seção de discussões -->
         <section class="secao-discussoes">
+
+
             <h1>Discussões</h1>
+
+
             <div class="div-criar-topicos">
                 <h2>Compartilhe suas ideias ou dúvidas com os autores!</h2>
                 <div>
                     <img src="https://cdn-icons.flaticon.com/png/512/4356/premium/4356315.png?token=exp=1653321122~hmac=dc765db7d84426d5e71b48fbb0aaec85"
                         alt="" title="" class="loaded" data-stories_space_upload_el_handled="1">
-                    <img src="https://cdn-icons-png.flaticon.com/512/263/263174.png" alt=""
-                        title="" data-stories_space_upload_el_handled="1" class="loaded">
+                    <img src="https://cdn-icons-png.flaticon.com/512/263/263174.png" alt="" title=""
+                        data-stories_space_upload_el_handled="1" class="loaded">
                     <img src="https://cdn-icons.flaticon.com/png/512/3911/premium/3911850.png?token=exp=1653321481~hmac=34c8d28c93a963668a75b45e187ca739"
                         alt="" title="" data-stories_space_upload_el_handled="1" class="loaded">
                 </div>
@@ -154,25 +158,41 @@
                     Sabia que o maior estímulo no desenvolvimento científico e cultural
                     é curiosidade? Deixe seus questionamentos ou sugestões para o autor!
                 </p>
-                <button>+ criar tópico</button>
+                <button id="botao-criar-topico">+ criar tópico</button>
             </div>
+
+
+            <div class="novo-topico esconder-div">
+                <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
+                <h3>Assunto</h3>
+                <input type="text" placeholder="Defina um tópico sucinto para notificar os autores...">
+                <h3>Conteúdo</h3>
+                <input type="text">
+                <button>Enviar</button>
+            </div>
+
+
             <div class="div-perguntas">
                 <h2>&nbsp;Assunto da pergunta aparece aqui</h2>
                 <p><strong>&nbsp;Carlos Henrique Santos</strong></p>
                 <p>
                     &nbsp;Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise
-                    da dimensão e impacto de processo formativo &nbsp;situado impacto de processo formativo &nbsp;processo...
+                    da dimensão e impacto de processo formativo &nbsp;situado impacto de processo formativo
+                    &nbsp;processo...
                 </p>
                 <div>
                     &nbsp; <strong>⁝</strong> <button>U</button> 1 like 1 resposta
                 </div>
             </div>
+
+
             <div class="div-perguntas">
                 <h2>&nbsp;Assunto da pergunta aparece aqui</h2>
                 <p><strong>&nbsp;Carlos Henrique Santos</strong></p>
                 <p>
                     &nbsp;Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise
-                    da dimensão e impacto de processo formativo &nbsp;situado impacto de processo formativo &nbsp;processo...
+                    da dimensão e impacto de processo formativo &nbsp;situado impacto de processo formativo
+                    &nbsp;processo...
                 </p>
                 <div>
                     &nbsp; <strong>⁝</strong> <button>U</button> 1 like 1 resposta
@@ -181,7 +201,7 @@
         </section>
 
     </main>
-    
+
     <!-- RODAPÉ -->
     <footer>
         <div>
@@ -193,12 +213,16 @@
                 gerado em eventos é a razão de ser da plataforma Galoá Proceedings
             </p>
             <p>
-                Os trabalhos publicados aqui têm maior alcance e ficam disponíveis para toda a comunidade 
+                Os trabalhos publicados aqui têm maior alcance e ficam disponíveis para toda a comunidade
                 científica, mantendo aceso o debate científico fomentado pelos encontros e aumentando o
-                impacto do evento.   
+                impacto do evento.
             </p>
         </div>
     </footer>
+
+
+
+    <script src="./js/criarTopico.js"></script>
 
 </body>
 
