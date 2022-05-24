@@ -23,3 +23,9 @@ footer div {
 footer div p {
     padding: 0 10px;
 }
+
+@media (max-width: 712px){
+    footer {
+        flex-direction: column;
+    }
+}
