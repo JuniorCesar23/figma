@@ -122,7 +122,50 @@
 }
 
 
+
+
+
 /* ESCONDER UMA DIV */
 .esconder-div {
     display: none;
+}
+
+
+
+/* */
+.div-topico-enviado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-topico-enviado h3, p, a, button div {
+    margin: 10px 0;
+}
+
+.div-topico-enviado h3, a {
+   color: tomato;
+}
+
+.div-topico-enviado button {
+    width: 10%;
+    padding: 10px;
+    background-color: tomato;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.div-topico-enviado div {
+    background-color: rgb(222, 210, 210);
+    width: 100%;
+    border-radius: 4px;
+    padding: 40px 0;
+    margin: 4px 0;
+}
+
+@media (max-width: 1580px) {
+    .div-topico-enviado button {
+        width: 20%;
+    }
 }
