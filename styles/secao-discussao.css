@@ -51,6 +51,11 @@
     margin: -20px -60px;
 }
 
+@media (max-width: 712px){
+    .secao-discussoes .div-criar-topicos p {
+        padding: 0;
+    }
+}
 
 
 

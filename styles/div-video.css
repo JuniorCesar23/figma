@@ -23,3 +23,14 @@
     margin: 0;
     padding: 10px 0;
 }
+
+@media (max-width: 712px){
+    .div-video img {
+        height: auto;
+        width: 256px;
+        margin: 12px 0;
+    }
+    .div-video .div-detalhes {
+        text-align: center;
+    }
+}
