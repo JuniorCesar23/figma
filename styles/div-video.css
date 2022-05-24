@@ -1,0 +1,25 @@
+.div-video {
+    display: flex;
+    flex-direction: row;
+    margin: 6px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.div-video img {
+    height: 512px;
+    width: 854px;
+}
+
+.div-video .div-detalhes {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    box-shadow: 0px 0px 1px black;
+}
+
+.div-video .div-detalhes h1 {
+    background-color: rgb(241, 218, 214);
+    margin: 0;
+    padding: 10px 0;
+}
