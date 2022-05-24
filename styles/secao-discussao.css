@@ -132,7 +132,7 @@
 
 
 
-/* */
+/* TÓPICO ENVIADO */
 .div-topico-enviado {
     display: flex;
     flex-direction: column;
@@ -168,4 +168,9 @@
     .div-topico-enviado button {
         width: 20%;
     }
+}
+
+/* ESCONDER UMA DIV */
+.esconder-div {
+    display: none;
 }
