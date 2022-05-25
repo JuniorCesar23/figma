@@ -14,6 +14,12 @@
 }
 
 
+.menu-lateral img {
+    height:300px;
+    width: 300px;
+    margin: 0 auto;
+}
+
 .menu-lateral h1 {
     background-color: rgb(196, 92, 31);
     font-weight: 500;
@@ -55,10 +61,22 @@ ul {
 }
 
 
+@media(max-width: 1580px) {
+    .menu-lateral img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
 
 @media(max-width: 712px) {
     .menu-lateral {
         font-size: 6px;
+    }
+
+    .menu-lateral img {
+        height: 50px;
+        width: 50px;
     }
 }
 
@@ -67,5 +85,9 @@ ul {
 @media(max-width: 370px) {
     .menu-lateral {
         font-size:2px;
+    }
+    .menu-lateral img {
+        height: 30px;
+        width: 30px;
     }
 }
